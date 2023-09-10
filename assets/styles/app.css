@@ -1,4 +1,83 @@
 @import "~bootstrap";
-body {
-    background-color: lightgray;
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Rajdhani:wght@700&display=swap');
+
+.img-text {
+    position: absolute;
+    color: #2c292c;
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+    margin: 2%;
+}
+.img-header {
+    bottom: 25vh;
+    left: 10vw;
+}
+.img-text {
+    bottom: 20vh;
+    left: 10vw;
+}
+.cap-button {
+    color: #4b3d4e;
+    position: absolute;
+    background-color: #ec4545;
+    bottom: 10vh;
+    left: 20vw;
+    width: auto;
+    height: auto;
+}
+
+.body-text, .titles {
+    font-family: "Rajdhani", sans-serif;
+}
+.exp {
+    width: 15%;
+    height: 30%;
+}
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+.reveal.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+#summary {
+    margin: 3%;
+}
+.client-picture {
+    width: 4rem;
+    border-radius: 50%;
+    display: block;
+}
+.checked {
+    color: orange;
+}
+.booking {
+    width: 100%;
+    height: auto;
+    margin: 1%;
+    padding: 1%;
+    display: block;
+    border-radius: 1cm;
+}
+#reservation {
+    background-color: #46424636;
+}
+.form-control {
+    width: 100%;
+}
+#newsletter{
+    background-color: #122a2237;
+}
+.titles{
+    font-family: 'Barlow', sans-serif;
+}
+#footer{
+    background-color: #413d3d59;
+}
+.exemple{
+    display: none;
+    color: red;
 }
