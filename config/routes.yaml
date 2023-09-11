@@ -1,3 +1,6 @@
 index:
    path: /
    controller: App\Controller\HomeController::index
+app_service:
+   path: /service
+   controller: App\Controller\ServiceController::index
