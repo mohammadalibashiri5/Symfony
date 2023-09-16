@@ -1,6 +1,7 @@
-index:
-   path: /
-   controller: App\Controller\HomeController::index
-app_service:
-   path: /service
-   controller: App\Controller\ServiceController::index
+controllers:
+   resource: ../src/Controller/
+   type: annotation
+
+kernel:
+   resource: ../src/Kernel.php
+   type: annotation
